@@ -33,7 +33,7 @@ COPY config /root/.aria2/
 RUN pip3 install --upgrade pip
 
 RUN mkdir /.config/
-RUN mkdir /.config/rclone
+COPY rclone /.config/
 
 RUN sudo apt-get install gcc libffi-dev libssl-dev  -y
 
