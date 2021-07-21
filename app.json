@@ -13,10 +13,6 @@
 				"description": "Aria2的密匙",
 				"value": ""
 			},
-			"Rclone": {
-				"description": "Rclone",
-				"value": ""
-			},
 			"Upload": {
 				"description": "上传文件夹名称，后面不需要加/",
 				"value": ""
