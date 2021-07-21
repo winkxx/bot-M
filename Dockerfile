@@ -32,6 +32,9 @@ RUN mkdir /root/.aria2
 COPY config /root/.aria2/
 RUN pip3 install --upgrade pip
 
+RUN mkdir /.config/
+RUN mkdir /.config/rclone
+
 RUN sudo apt-get install gcc libffi-dev libssl-dev  -y
 
 RUN pip3 install -U pyrogram tgcrypto
