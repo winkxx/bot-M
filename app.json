@@ -25,10 +25,6 @@
 				"description": "Bot的API",
 				"value": ""
 			},
-			"Title": {
-				"description": "Title",
-				"value":""
-			},
 			"Api_hash": {
 				"description": "Api_hash",
 				"value":""
