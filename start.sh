@@ -17,7 +17,7 @@ wget git.io/tracker.sh
 chmod 0777 /tracker.sh
 /bin/bash tracker.sh "/root/.aria2/aria2.conf"
 
-#python3 /bot/nginx.py
+python3 /bot/nginx.py
 nginx -c /etc/nginx/nginx.conf
 nginx -s reload
 
