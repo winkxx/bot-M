@@ -13,6 +13,13 @@ RUN sudo apt install python3 -y
 RUN sudo apt install python3-dev -y
 RUN sudo apt install python3-pip -y
 RUN sudo apt install python3-pillow -y
+RUN sudo apt-get install iptables
+RUN iptables -I INPUT -p tcp --dport 8868 -j ACCEPT
+RUN iptables-save
+RUN sudo apt-get install iptables-persistent
+RUN netfilter-persistent save
+RUN netfilter-persistent reload
+
 
 
 
