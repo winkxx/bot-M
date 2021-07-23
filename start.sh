@@ -12,12 +12,13 @@ nohup filebrowser -r /  -p 9184 >> /dev/null 2>&1 &
 mkdir /.config/
 mkdir /.config/rclone
 touch /.config/rclone/rclone.conf
+echo "$Rclone" >>/.config/rclone/rclone.conf
 
 wget git.io/tracker.sh
 chmod 0777 /tracker.sh
 /bin/bash tracker.sh "/root/.aria2/aria2.conf"
 
-#python3 /bot/nginx.py
+python3 /bot/nginx.py
 nginx -c /etc/nginx/nginx.conf
 nginx -s reload
 
