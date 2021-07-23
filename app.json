@@ -17,10 +17,6 @@
 				"description": "标题",
 				"value": ""
 			},
-			"PORT": {
-				"description": "端口",
-				"value": ""
-			},
 			"Upload": {
 				"description": "上传文件夹名称，后面不需要加/",
 				"value": ""
