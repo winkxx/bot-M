@@ -13,6 +13,10 @@
 				"description": "Aria2的密匙",
 				"value": ""
 			},
+			"Rclone": {
+				"description": "Rclone",
+				"value": ""
+			},
 			"Title": {
 				"description": "标题",
 				"value": ""
