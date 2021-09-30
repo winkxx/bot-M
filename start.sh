@@ -9,9 +9,9 @@ chmod 0777 /root/.aria2/ -R
 nohup filebrowser -r /  -p 9184 >> /dev/null 2>&1 & 
 #nohup ./FolderMagic -aria "http://127.0.0.1:6800/jsonrpc" -auth root:$Aria2_secret -bind :9184 -root / -wd /webdav >> /dev/null 2>&1 & 
 
-mkdir /.config/
-mkdir /.config/rclone
-touch /.config/rclone/rclone.conf
+mkdir /root/.config/
+mkdir /root/.config/rclone
+touch /root/.config/rclone/rclone.conf
 echo "$Rclone" >>/.config/rclone/rclone.conf
 
 wget git.io/tracker.sh
