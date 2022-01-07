@@ -12,6 +12,9 @@ nohup filebrowser -r /  -p 9184 >> /dev/null 2>&1 &
 mkdir /root/.config/
 mkdir /root/.config/rclone
 touch /root/.config/rclone/rclone.conf
+mkdir /.config/
+mkdir /.config/rclone/
+touch /.config/rclone/rclone.conf
 echo "$Rclone" >>/.config/rclone/rclone.conf
 
 wget git.io/tracker.sh
